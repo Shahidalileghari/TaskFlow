@@ -1,0 +1,14 @@
+{
+  "name": "full-stack-project",
+  "private": true,
+  "version": "1.0.0",
+  "description": "TaskFlow full-stack task management application",
+  "scripts": {
+    "dev:api": "npm --prefix apps/api run dev",
+    "dev:web": "npm --prefix apps/web run dev",
+    "test:api": "npm --prefix apps/api test",
+    "test:web": "npm --prefix apps/web test",
+    "build:api": "npm --prefix apps/api run build",
+    "build:web": "npm --prefix apps/web run build"
+  }
+}
